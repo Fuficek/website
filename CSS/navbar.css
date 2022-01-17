@@ -1,0 +1,35 @@
+.sidenav {
+    height: 100%; 
+    width: 160px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 150px;
+    padding-left: 25px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    text-shadow: 0 0 0.1em rgba(255, 255, 255, 0.781), 0 0 0.2em rgba(255, 255, 255, 0.863), 0 0 0.3em rgba(255, 255, 255, 0.829), 0 0 0.4em rgba(121, 119, 255, 0.795),0 0 0.6em rgba(25, 0, 255, 0.767), 0 0 0.8em rgba(25, 0, 255, 0.863), 0 0 1.0em rgba(0, 17, 255, 0.788), 0 0 1.2em rgba(4, 0, 255, 0.836);
+    color: rgb(211, 211, 211);
+  }
+  
+  .main {
+    margin-left: 160px; 
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 150px;}
+    .sidenav a {font-size: 18px;}
+    .sidenav {padding-left: 25;}
+  }

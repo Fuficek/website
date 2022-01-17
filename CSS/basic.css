@@ -1,0 +1,56 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    text-decoration-color: rgb(46, 46, 255);
+    color:rgb(124, 124, 124)
+  }
+  
+  h1 {
+    margin-top: 100;
+    font-family: 'Lato', sans-serif;
+    color: rgb(38, 78, 255);
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  p {
+    font-family: 'Lato', sans-serif;
+    text-decoration-color: rgb(61, 61, 61);
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 20px;
+  }
+  .neon-rise {
+    text-shadow: 0 0 0.1em rgba(255, 255, 255, 0.5), 0 0 0.2em rgba(255, 255, 255, 0.541), 0 0 0.3em rgba(255, 255, 255, 0.486), 0 0 0.4em rgba(121, 119, 255, 0.493),0 0 0.6em rgba(25, 0, 255, 0.493), 0 0 0.8em rgba(25, 0, 255, 0.562), 0 0 1.0em rgba(0, 17, 255, 0.521), 0 0 1.2em rgba(4, 0, 255, 0.534);
+    color: rgb(211, 211, 211);
+  }
+  .center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+  .icon {
+      margin-left: 25px;
+      margin-top: 10px;
+      height: 60px;
+      width: 60px;
+  }
+  .neonText {
+    color: #fff;
+    text-shadow:
+      0 0 7px rgba(255, 255, 255, 0.507),
+      0 0 10px rgba(255, 255, 255, 0.527),
+      0 0 21px rgba(255, 255, 255, 0.555),
+      0 0 42px rgba(0, 204, 255, 0.486),
+      0 0 82px rgba(0, 195, 255, 0.418),
+      0 0 92px rgba(0, 153, 255, 0.452),
+      0 0 102px rgba(0, 132, 255, 0.418),
+      0 0 151px rgba(0, 110, 255, 0.493);
+  }
+ a {
+   text-decoration: none;
+ }
